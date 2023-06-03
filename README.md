@@ -4,7 +4,7 @@ Natural Language Processing based analysis of UGC (User Generated Content) on e-
 Excited to share my latest data science, ML, and Natural Language Processing project built on  Web-Scraping, Data crawling, and analyzing product reviews and ratings! Many machine learning methods, e.g., naïve Bayes, decision tree, decision table, and logistic regression, have been investigated for review text classification in this project. 
 
 # Related Work:
-# Data Crawling >> Data Preprocessing >> Sentiment lexicon generation >> Training and Testing data for accuracy#
+# Data Crawling >> Data Preprocessing >> Sentiment lexicon generation >> Training and Testing data for accuracy
 
 1. The data crawling step provides a raw form of the latest and genuine data foundation for the next steps. In the web-scraping method, I used Selenium, BeautifulSoup, and Requests libraries of Python in addition to Pandas DataFrames to scrape reviews.
 2. Since this UGC(user-generated content) is typically unstructured, data preprocessing is necessary. Typical preprocessing includes useless element (e.g., hashtag, URL, and special symbol) removal, stop word removal, part of speech (POS) tagging, named entity recognition, and fake information filtering. In some special language contexts, e.g., Chinese, some special preprocessing, e.g., word segmentation, may be needed.
@@ -14,7 +14,8 @@ Excited to share my latest data science, ML, and Natural Language Processing pro
 6. Accuracy score testing using a Decision tree, decision table, logistic regression and Naive Bayes methods and formed classification report.
 
 # Used Stack: 
-Language: Python 
+Language: Python
+
 Libraries: Selenium, Pandas, BS4, Scikit-Learn, Natural Language Toolkit (NLTK)
 
 # Conclusion:
